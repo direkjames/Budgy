@@ -70,6 +70,12 @@ Kotlin + Jetpack Compose + Room. Everything is stored on the phone; no account, 
 - In-app guide has a new Investments section
 - Upgrading keeps all your data (migration 4 → 5); backups now include investments (format v5)
 
+## What's new in V6
+- Fund / ETF investments (e.g. S&P 500 ETFs like VOO, index funds, UITFs) with a price you type
+- Prices can be in US dollars (or another currency) with your own exchange rate; amounts convert to your main currency
+- No new internet use: funds are fully offline
+- Upgrading keeps all your data (migration 5 → 6); backups format v6
+
 ## Sign releases with your own key (do this once, before sharing)
 Release APKs are signed with the debug key unless you add your own. Your own key means updates always install
 over the old version. If friends already have a debug-signed Budgy, they must back up, uninstall once,
