@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_expense"
+        android:shortcutId="add_expense"
+        android:shortcutLongLabel="@string/shortcut_expense_long"
+        android:shortcutShortLabel="@string/shortcut_expense">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.budgy.app.MainActivity"
+            android:targetPackage="com.budgy.app">
+            <extra android:name="budgy_action" android:value="add_expense" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_income"
+        android:shortcutId="add_income"
+        android:shortcutLongLabel="@string/shortcut_income_long"
+        android:shortcutShortLabel="@string/shortcut_income">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.budgy.app.MainActivity"
+            android:targetPackage="com.budgy.app">
+            <extra android:name="budgy_action" android:value="add_income" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_transfer"
+        android:shortcutId="transfer"
+        android:shortcutLongLabel="@string/shortcut_transfer_long"
+        android:shortcutShortLabel="@string/shortcut_transfer">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.budgy.app.MainActivity"
+            android:targetPackage="com.budgy.app">
+            <extra android:name="budgy_action" android:value="transfer" />
+        </intent>
+    </shortcut>
+</shortcuts>

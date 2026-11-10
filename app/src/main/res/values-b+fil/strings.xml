@@ -1,0 +1,9 @@
+<resources>
+    <string name="widget_description">Magkano pa ang puwede mong gastusin ngayong araw, may mabilis na Add button</string>
+    <string name="shortcut_expense">Gastos</string>
+    <string name="shortcut_expense_long">Magdagdag ng gastos</string>
+    <string name="shortcut_income">Kita</string>
+    <string name="shortcut_income_long">Magdagdag ng kita</string>
+    <string name="shortcut_transfer">Ilipat</string>
+    <string name="shortcut_transfer_long">Maglipat sa ibang account</string>
+</resources>

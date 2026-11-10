@@ -1,0 +1,9 @@
+<resources>
+    <string name="widget_description">Pila pa ang imong magasto karong adlawa, naa\'y dali nga Add button</string>
+    <string name="shortcut_expense">Gasto</string>
+    <string name="shortcut_expense_long">Pagdugang og gasto</string>
+    <string name="shortcut_income">Kita</string>
+    <string name="shortcut_income_long">Pagdugang og kita</string>
+    <string name="shortcut_transfer">Ibalhin</string>
+    <string name="shortcut_transfer_long">Ibalhin sa laing account</string>
+</resources>

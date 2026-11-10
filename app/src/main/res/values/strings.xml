@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Budgy</string>
+    <string name="widget_description">What you can still spend today, with a quick Add button</string>
+    <string name="shortcut_expense">Add expense</string>
+    <string name="shortcut_expense_long">Add an expense</string>
+    <string name="shortcut_income">Add income</string>
+    <string name="shortcut_income_long">Add income</string>
+    <string name="shortcut_transfer">Transfer</string>
+    <string name="shortcut_transfer_long">Transfer between accounts</string>
+</resources>
